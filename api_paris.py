@@ -6,7 +6,7 @@ import requests
 
 class ApiParis:
     def __init__(self):
-        self.token = 'cf5ae41319d5663a97ee45ec0691cdd2dba6a97b66daecee7356bbd66483c4be'
+        self.token = 'YOUR_TOKEN'
         self.headers = {'Accept': '*/*', 'Content-Type': 'application/json'}
 
     def get_categories(self):
